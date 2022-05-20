@@ -5,39 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <ul>
-
+    <ul id="menu">
         <li><a href="index.html"> Home </a></li>
         <li><a href="contato.html"> Contato </a></li>
-
     </ul>
 
-    <h1> Entre em contato comingo </h1>
+    <h1 class="center"> Entre em contato comingo </h1>
 
-    <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label><br>
-        <textarea nome="assunto" id="assunto" cols="60" rows="5"> </textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="container">
 
-    <h2>Endereço:</h2>
+    <div>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome">
+            <br>
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email">
+            <br>
+            <br>
+            <label for="assunto">Assunto:</label><br>
+            <textarea nome="assunto" id="assunto" cols="60" rows="5"> </textarea>
+            <br>
+            <br>
+            <button>Enviar</button>
+        </form>
+    </div>
+    <div class="ml">
+        <h2>Endereço:</h2>
 
-    <p>Av. Governador Agamenon Magalhães, 1800</p>
-    <p>Recife - PE</p>
+        <p>Av. Governador Agamenon Magalhães, 1800</p>
+        <p>Recife - PE</p>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.91112680140546!2d-34.88667933928224!3d-8.042364836215235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18f482f9b863%3A0x394020aaee7a3371!2sAv.%20Gov.%20Agamenon%20Magalh%C3%A3es%2C%201800%20-%20Espinheiro%2C%20Recife%20-%20PE%2C%2052021-170!5e0!3m2!1spt-BR!2sbr!4v1652981005294!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.91112680140546!2d-34.88667933928224!3d-8.042364836215235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18f482f9b863%3A0x394020aaee7a3371!2sAv.%20Gov.%20Agamenon%20Magalh%C3%A3es%2C%201800%20-%20Espinheiro%2C%20Recife%20-%20PE%2C%2052021-170!5e0!3m2!1spt-BR!2sbr!4v1652981005294!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+    
+    <hr>
+<footer>
+
+    <div class="container mb">
+        <a href="https://www.facebook.com/" target="_blank">
+            <img class="tm" src="assets/img/facebook-icon.svg" alt="logo facebook">
+        </a>
+        <a href="https://github.com/" target="_blank">
+            <img class="tm" src="assets/img/github-tile.svg" alt="logo github">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img class="tm" src="assets/img/instagram-icon.svg" alt="logo instagram">
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+            <img class="tm" src="assets/img/linkedin-icon.svg" alt="logo linkedin">
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+            <img class="tm" src="assets/img/twitter-official.svg" alt="logo twitter">
+        </a>
+
+    </div>
+
+    <p class="center">
+        Todos os direitos reservados: Tulip Olsen &copy;
+    </p>
+</footer>
 
 </body>
 </html>
